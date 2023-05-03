@@ -1,0 +1,36 @@
+h1{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    color:blue;
+    font-size: 30px;
+}
+
+#p_without_grey{
+    background-color: pink;
+}
+
+p{
+    background-color: grey;
+}
+
+strong{
+    color:yellowgreen;
+	font-weight:normal;
+}
+
+em{
+    font-style: normal;
+    color:orange;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#tittle_2{
+    text-align: right;
+    color: green;
+    text-decoration: underline;
+}

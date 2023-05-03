@@ -1,0 +1,23 @@
+.Main_Tittle{
+    color:blue
+}
+
+.Main_Tittle:hover{ 
+    color:green
+}
+
+p:active{
+    background-color: grey;
+}
+
+a:link{
+    color:orange;
+}
+
+a:visited{
+    color:lightgrey;
+}
+
+img:hover{
+    display:none;
+}
