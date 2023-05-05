@@ -1,0 +1,28 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.square_1{
+    background-image: linear-gradient(to bottom left, red, green, blue);
+}
+
+.square_2{
+    background-image: linear-gradient(-70deg, yellow 0%, purple 25%);
+}
+
+.square_3{
+    background-image: linear-gradient(white, rgba(0,0,0,0.5));
+
+}
+
+.square_4{
+    background-image: radial-gradient(lightblue,lightpink);
+}
+
+.square_5{
+    background-image: repeating-radial-gradient(black,white 10px);
+}

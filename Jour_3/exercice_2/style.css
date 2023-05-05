@@ -1,0 +1,29 @@
+h1{
+    text-shadow: 10px -10px 5px purple;
+    
+}
+
+.paragraphe_1{
+    box-shadow: 0px 0px 20px red;
+}
+
+.paragraphe_2{
+    box-shadow: -10px 10px 10px greenyellow;
+}
+/* Première valeur verticale : Positif => ombre vers le haut
+                    Négatif => ombre vers le bas
+                    0 => reste au même point, sous le texte
+Deuxième valeur horizontale : Positif => ombre vers la droite
+                Négatif => ombre vers la gauche
+                0 => reste au même point
+Troisième valeur flou : Plus grand nombre = ombre plus diffuse et large
+Quatrième valeur étendue : Plus grand nombre = ombre plus étendue */
+.rectangle{
+    width: 400px;
+    height:200px;
+	background: rgb(98, 161, 204);
+    box-shadow: 10px 10px 10px rgb(46, 46, 46),
+                -10px -10px 10px white;
+}
+/* 2 lignes avec les tailles et les couleurs pour
+faire 2 ombres portées distinctes */

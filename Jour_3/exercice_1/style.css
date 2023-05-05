@@ -1,0 +1,11 @@
+li:nth-child(odd){
+    color: red;
+}
+
+ul:hover li:nth-child(odd){
+    color:black;
+}
+ul:hover li:nth-child(even){
+    color: red;
+}
+/* Switch de couleur dans une liste à puces */
