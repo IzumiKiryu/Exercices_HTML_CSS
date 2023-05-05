@@ -23,6 +23,10 @@ div {
     background-image: radial-gradient(lightblue,lightpink);
 }
 
+.square_4:hover{
+    background-image: radial-gradient(lightpink,lightblue);
+}
+    
 .square_5{
     background-image: repeating-radial-gradient(black,white 10px);
 }
