@@ -1,0 +1,44 @@
+caption{
+    color:darkviolet;
+    font-weight: bold;
+}
+
+table{
+    border: thick double darkviolet;
+    border-collapse:collapse;
+    text-align: center;
+    width: 900px;
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+/* th{
+    background-color: lightskyblue;
+} */
+
+/* Cette section est faite pour changer la couleur des lignes 1/2 */
+tbody tr:nth-child(odd){
+    background-color:bisque;
+}
+
+tbody tr:nth-child(even){
+    background-color:lightcyan ;
+}
+
+tfoot tr:nth-child(even){
+    background-color:bisque;
+}
+
+tfoot tr:nth-child(odd){
+    background-color:lightcyan ;
+}
+
+/* Ajout d'une image de fond dans le thead */
+thead{
+    background: url(totoro_poursuite.jpg);
+    background-size:auto;
+    height: 350px;
+    
+}
