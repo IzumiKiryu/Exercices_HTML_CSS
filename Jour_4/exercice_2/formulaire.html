@@ -9,6 +9,9 @@
 </head>
 <body>
     <form action="" method="post">
+    <fieldset>
+        <legend>Info personnelles</legend>
+        <!-- toujours en method="post" -->
         <label for="prenom">Prénom :</label>
         <input type="text" name="prenom" placeholder="Ex: Jacques" minlength="2" maxlength="20" id="prenom">
     <br>
@@ -20,6 +23,64 @@
     <br>
         <label for="numero">Numéro :</label>
         <input type="tel" name="telephone" placeholder="Ex: 00.11.22.33.44" id="telephone">
+    <br>
+        <label for="password">Mot de passe :</label>
+        <input type="password" name="password" placeholder="Ex: P@ssWo4d" id="password" minlength="8" maxlength="30">
+    <br>
+        <label for="age">Âge :</label>
+        <input type="number" name="age" placeholder="Ex: 15" id="age">
+        <!-- number pour faire un input avec flèche au et bas de sélection de chiffres -->
+        <br>
+        <label for="Comment">Laissez un commentaire :</label>
+    <br>
+        <textarea id="comment" name="comment" rows="10" cols="70" placeholder="J'adore ce que vous faites !"></textarea>
+        <!-- rows et cols pour donner une taille à la boîte de texte -->
+    <br>
+        <label for="date">Date de mon commentaire :</label>
+        <input type="date" name="date">
+    <br>
+        <label for="photo">Ma photo :</label>
+        <input type="file" id="photo" name="photo" accept=".jpeg, .png, .gif">
+    </fieldset>
+    <fieldset>
+        <legend>Vous préférez</legend>
+        <input type="checkbox" name="checkbox" id="checkbox1" checked><label for="checkbox">Le HTML</label>
+    <br>
+        <input type="checkbox" name="checkbox" id="checkbox2"><label for="checkbox">Le CSS</label>
+    <br>    
+        <input type="checkbox" name="checkbox" id="checkbox3"><label for="checkbox">Le Javascript</label>
+    <br>
+        <input type="checkbox" name="checkbox" id="checkbox4"><label for="checkbox">Ne rien faire</label>
+    </fieldset>
+    <fieldset>
+        <legend>Vous vous levez</legend>
+        <!-- name = radio sans numéro derrière, sinon la sélection unique ne fonctionne pas -->
+        <input type="radio" name="radio" value="Le_matin" checked><label for="radio">Le matin</label>
+    <br>
+        <input type="radio" name="radio" value="Le_midi"><label for="radio">Le midi</label>
+    <br>
+        <input type="radio" name="radio" value="Le_soir"><label for="radio">Le soir</label>
+    <br>
+        <input type="radio" name="radio" value="En_retard_!"><label for="radio">En retard !</label>
+    </fieldset>
+    <fieldset>
+        <legend>Fin du formulaire</legend>
+        <label for="list">Vous en avez assez ? </label>
+        <select name="liste" id="liste">
+            <option value="">Sélectionnez une option</option>
+            <optgroup label="Team Pas encore">
+                <option value="option1">J'en veux plus</option>
+                <option value="option2">C'est super !</option>
+            </optgroup>
+            <optgroup label="Team Oula">
+                <option value="option3">J'en ai marre</option>
+                <option value="option4">Pitié !</option>
+            </optgroup>
+        </select>
+    <br>
+        <input type="submit" value="Envoyer"><input type="reset" value="Reset">
+    </fieldset>
     </form>
+    </body>
 </body>
 </html>

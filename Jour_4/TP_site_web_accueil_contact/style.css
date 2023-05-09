@@ -1,0 +1,23 @@
+header{
+    background-image: url("Banniere.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 800px;
+    height: 200px;
+    display: flex;
+
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+nav{
+    margin:center;
+    align-self: center;
+}
+
+footer{
+    text-align: right;
+}
