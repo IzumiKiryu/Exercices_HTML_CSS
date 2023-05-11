@@ -1,23 +1,63 @@
-header{
-    background-image: url("Banniere.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 800px;
-    height: 200px;
-    display: flex;
-
-}
+html{
+    background: #CCDAE0;
+    background: radial-gradient(circle farthest-corner at top center, #CCDAE0 0%, #EDF2F4 100%); 
+} 
 
 h1{
     text-align: center;
-    color: red;
+    color: #EF233C;
+    font-size:50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
 }
 
+h3{
+    color:#2B2D42;
+    font-size:30px;
+    font-style: bold;
+    text-decoration: underline dotted #2B2D42;
+}
+
+
 nav{
-    margin:center;
-    align-self: center;
+    text-align: center;
 }
 
 footer{
     text-align: right;
+}
+
+span{
+    color:red
+}
+
+header{
+    padding: 25px 0px;
+    text-align: center;
+}
+
+article{
+    border: solid 1px black;
+}
+
+#image{
+    border: solid 2px #8D99AE;
+    margin: auto;
+    display:flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link{
+    color:#D90429
+}
+
+a:visited{
+    color:grey;
+}
+
+a:hover{
+    color:#2B2D42
 }

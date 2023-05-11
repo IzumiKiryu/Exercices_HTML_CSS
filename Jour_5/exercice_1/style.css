@@ -1,0 +1,29 @@
+p{
+    background-color: grey;
+    border: solid 2px green;
+}
+
+.p1{
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.p2{
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+}
+/* margin: 20px 5px => Applique 20px en haut et en bas, 5px à droite et à gauche */
+
+.p3{
+    width: 200px;
+    height: 200px;
+    padding: -30px;
+    margin: auto;
+}
+
+body{
+    margin: 0px;
+    background-color: violet;
+}

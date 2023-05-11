@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page contact</title>
+</head>
+<body>
+    <header>
+        <img src="Banniere.jpg" width="800" height="200">
+        <h1>Bienvenue sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#article2">Blog</a></li>
+                <li><a href="#">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="BDD.php" method="post">
+        <fieldset>
+            <legend>Contact</legend>
+            <div>
+                <label for="nom">Nom :<span>*</span></label>
+                <input type="text" name="nom" placeholder="Ex: Robert" minlength="2" maxlength="20" id="nom" required>
+            </div>
+            <div>
+                <label for="email">E-mail :<span>*</span></label>
+                <input type="email" name="email" placeholder="Ex: monMail@FAI.com" id="email" required>      
+            </div>
+            <div>
+                <label for="Comment">Laissez un commentaire :</label>
+                <br>
+                <textarea id="comment" name="comment" rows="10" cols="70" placeholder="Je dépose un avis :)"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox" id="checkbox1" checked><label for="checkbox">Envoyer une copie par E-mail !</label>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer"><input type="reset" value="Reset">
+            </div>
+    <footer>
+        <ul>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+            <li><a href="#">Menu 4</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
